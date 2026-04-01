@@ -14,3 +14,5 @@ def compute(expression):
     else:
         print('unknown operator!')
         return None
+usr_input = input("Please enter the operation:")
+print(compute(usr_input))
